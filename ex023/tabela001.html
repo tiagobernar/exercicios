@@ -13,21 +13,19 @@
             background-color: green;
             color: white;
             padding: 3%;
-            width: 358px;
+            width: 336px;
             text-align: center;
             border-radius: 5px;
         }
         table {
-            width: 415px;
+            width: 400px;
             border-collapse: collapse;
             
-        }
-        tr.linha {
-            background-color: gray;
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            
         }
         td.fixas {
             background: rgb(254, 0, 254);
@@ -47,11 +45,11 @@
             color: white;
             font-weight: bolder;
             text-align: center;
+            line-height: 2.0;
             
         }
         td.vazio {
-            background-color: rgb(254, 0, 254);
-            
+            background-color: rgb(254, 0, 254);   
         }
     </style>
 </head>
@@ -66,8 +64,8 @@
         -->
     <table>
         <tr> <!-- Primeira linha -->
-            <td class="fixas">6DZS FIXAS</td>
-            <td class="vazio"></td>
+            <td class="fixas" colspan="2">6DZS FIXAS</td>
+           
             <td>2</td>            
             <td>11</td>
             <td>20</td>
@@ -76,31 +74,29 @@
             <td>15</td>
         </tr>
         <tr>
-            <td class="grupos">GRUPO A</td>
+            <td class="grupos" rowspan="3">GRUPO A <br> GRUPO C <br> GRUPO E</td>
             <td>1</td>
             <td>18</td>
             <td>19</td>
-            <td class="grupos">GRUPO B</td>
+            <td class="grupos" rowspan="3">GRUPO B <br> GRUPO D <br> GRUPO F</td>
             <td>10</td>
             <td>13</td>
             <td>16</td>
         </tr>
         <tr>
-            <td class="grupos">GRUPO C</td>
+            
             <td>8</td>
             <td>17</td>
             <td>22</td>
-            <td class="grupos">GRUPO D</td>
             <td>21</td>
             <td>24</td>
             <td>25</td>
         </tr>
         <tr>
-            <td class="grupos">GRUPO E</td>
+            
             <td>3</td>
             <td>4</td>
             <td>7</td>
-            <td class="grupos">GRUPO F</td>
             <td>5</td>
             <td>6</td>
             <td>9</td>
